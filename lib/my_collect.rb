@@ -3,6 +3,7 @@ def my_collect(array)
   my_collect(array) do |name|
     name.split(" ").first 
   end
+end
 def my_collect(collection)
   collection = ['ruby', 'javascript', 'python', 'objective-c']
   my_collect(collection) do |lang|
