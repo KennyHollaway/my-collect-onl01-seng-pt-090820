@@ -1,5 +1,5 @@
 def my_collect(array)
-  array = ["Tim", "Tom", "Jim"]
+  array = ["Tim Jones", "Tom Smith", "Jim Camp"]
   my_collect(array) do |name|
     name.split(" ").first 
   end
